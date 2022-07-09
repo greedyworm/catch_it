@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Catch it!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header all">
+            <div class="logo">
+            
+            </div>
+            <div class="coin">
+                <img src="./img/money-sack.svg" alt="">
+                <span id="coins">500</span>
+                <button class="plus" id="topup">+</button>
+            </div>
+        </div>
+
+        <div class="layar all">
+            <button class="hint"><img src="/img/question.svg" alt=""></button>
+            <img class="dd" src="./img/dice.svg" alt="">
+            <h2 id="layar">Semoga Beruntung</h2>
+            
+        </div>
+
+        <div class="pasang all">
+            <input placeholder="Masukkan taruhan disini!" type="number" id="taruhan">
+            <button type="submit" class="pasang__btn" id="pasang-id">Pasang</button>
+        </div>
+    
+        <div class="all button">
+            <button id="besar" class="btn">Besar</button>
+            <button id="kecil" class="btn">Kecil</button>
+        </div>
+
+        <div class="play all">
+            <h2 class="hasil" id="hasil">BESAR atau KECIL?</h2>
+            <div class="dadus">
+                <span class="dadu1 dadu" id="dadu1">0</span>
+                <span class="dadu2 dadu" id="dadu2">0</span>
+            </div>
+            <button class="play-btn" id="play">MAIN !</button>
+
+        </div>
+
+        <footer class="footer all">
+            <p>by: M.N.Alwi</p>      
+        </footer>
+        
+
+    </div>
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>
